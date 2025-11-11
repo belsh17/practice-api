@@ -1,0 +1,81 @@
+body{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-image: url("assets/image.png");
+    background-position: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 30px;
+    margin: 100px;
+    /* border: 0.5px solid white; */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* Semi-transparent background color for the div itself */
+    background-color: rgba(255, 255, 255, 0.034); /* White with 30% opacity */
+    /* Apply the blur effect to the background behind the div */
+    backdrop-filter: blur(2px); /* Adjust the pixel value for desired blur strength */
+    -webkit-backdrop-filter: blur(2px); /* For Safari support */
+}
+
+.input-block{
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    color: rgb(0, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* Semi-transparent background color for the div itself */
+    background-color: rgba(255, 255, 255, 0.034); /* White with 30% opacity */
+    backdrop-filter: blur(2px); /* Adjust the pixel value for desired blur strength */
+    -webkit-backdrop-filter: blur(2px); /* For Safari support */
+}
+
+form h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+
+.block-text{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.block-text a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#mid-text{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+}
+
+#mid-text label{
+    margin-left: -40px;
+}
+
+button{
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+
+button:hover{
+    color: white;
+    background-color: rgb(65, 3, 123);
+    cursor: pointer;
+}
